@@ -6,8 +6,6 @@ public class Arryametod {
    static int[] myArr = new int[]{1, 8, 3, 1, 5, 6, 7};
 
     public static int[] afterLasFour(int[] arr) {
-
-
             for (int i = arr.length - 1; i >= 0; i--) {
                 if (arr[i] != 4) {
                    return Arrays.copyOfRange(arr, i + 1, arr.length);
@@ -38,7 +36,7 @@ public class Arryametod {
 
     public static void main(String[] args) {
     //    System.out.println(arrayСomposition(myArrInt));
-        System.out.println(Arrays.toString(afterLasFour(myArr)));
+    //    System.out.println(Arrays.toString(afterLasFour(myArr)));
     }
 
 
