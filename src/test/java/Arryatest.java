@@ -25,7 +25,7 @@ public class Arryatest {
 
     Arryametod arryametod;
 
-   int[] myArr = new int[]{};
+
 
     @Parameterized.Parameters
     public Collection<Object[]> data () {
@@ -44,7 +44,7 @@ public class Arryatest {
 
 @Test
     public void afterLasFourTest(){
-     Assert.assertArrayEquals(a, arryametod.afterLasFour(b));
+    Assert.assertArrayEquals(a, Arryametod.afterLasFour(b));
     }
 
 
